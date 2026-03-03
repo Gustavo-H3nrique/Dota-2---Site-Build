@@ -20,7 +20,7 @@ O código JavaScript neste repositório passou por um processo de **ofuscação 
 - **Transparência:** Se você for um recrutador e desejar avaliar a **qualidade, arquitetura e organização do código-fonte original (limpo)**, por favor, entre em contato comigo para solicitar acesso ao repositório privado.
 
 ## 🔧 Como rodar
-1. Utilize esse link para visualizar o site funcionando:
+1. Utilize esse link para visualizar o site funcionando: https://gustavo-h3nrique.github.io/Dota-2---Site-Build/
 2. Clone este repositório.
 3. Abra o arquivo `index.html` em seu navegador.
 4. Certifique-se de estar conectado à internet para o carregamento dos dados da API.
