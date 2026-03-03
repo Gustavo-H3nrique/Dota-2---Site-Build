@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herói - Dota 2 Builds</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>⚔️ Dota 2 Builds</h1>
+        <!-- Botão para voltar à lista -->
+        <a href="index.html" id="btn-voltar">← Voltar</a>
+    </header>
+
+    <!-- Informações do herói -->
+    <section id="heroi-info">
+        <div id="heroi-imagem"></div>
+        <div id="heroi-detalhes">
+            <h2 id="heroi-nome">Carregando...</h2>
+            <p id="heroi-atributo"></p>
+            <p id="heroi-ataque"></p>
+        </div>
+    </section>
+
+    <!-- Linha principal: Itens | Facetas+Habilidades | Talentos -->
+    <div id="linha-principal">
+
+        <!-- Coluna 1: Builds por Role -->
+        <section id="build-section">
+        </section>
+
+        <!-- Coluna 2: Facetas (acima) + Habilidades (abaixo) -->
+        <section id="abilities-section">
+            <div id="facet-section">
+                <h3>💎 Facetas do Herói</h3>
+                <div id="facet-grid"></div>
+            </div>
+            <div id="habilidades-bloco">
+                <h3>⚡ Habilidades</h3>
+                <div id="abilities-grid"></div>
+            </div>
+        </section>
+
+        <!-- Coluna 3: Árvore de Talentos -->
+        <section id="talent-section">
+            <div id="talent-tree-container">
+                <h3>🌳 Árvore de Talentos</h3>
+                <div id="talent-rows"></div>
+            </div>
+        </section>
+
+    </div>
+
+    <script src="heroi.js"></script>
+</body>
+
+</html>

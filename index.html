@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dota 2 Builds</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--   Cabeçalho do site  -->
+    <header>
+        <h1>Dota 2 Builds</h1>
+        <p>Encontre a melhor build para cada herói</p>
+    </header>
+
+    <!-- Barra de filtros -->
+    <section id="filtros">
+        <button class="filtro ativo" data-attr="todos">Todos</button>
+        <button class="filtro" data-attr="agi">⚔️ Agilidade</button>
+        <button class="filtro" data-attr="str">🛡️ Força</button>
+        <button class="filtro" data-attr="int">🔮 Inteligência</button>
+        <button class="filtro" data-attr="all">✨ Universal</button>
+        <input type="text" id="busca-heroi" placeholder="🔍 Buscar herói..." />
+    </section>
+
+
+    <!-- Card dos herois via Javascript -->
+    <main id="heroes-grid">
+    </main>
+
+
+    <script src="app.js">
+    </script>
+
+</body>
+
+</html>
