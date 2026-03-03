@@ -6,8 +6,9 @@ Este repositório contém a versão de implantação (build) do projeto **Dota 2
 Uma aplicação web que consome dados em tempo real sobre os heróis do Dota 2, permitindo:
 - Listagem completa de heróis.
 - Filtragem por atributos principais (Força, Agilidade, Inteligência e Universal).
-- Pesquisa dinâmica por nome.
+- Pesquisa dinâmica por nome e builds mais utilizadas.
 - Visualização de detalhes específicos de cada herói.
+- Formatado para telefones e tablets.
 
 ## 🛠️ Tecnologias Utilizadas
 - **HTML5 / CSS3** (Design responsivo e temático).
